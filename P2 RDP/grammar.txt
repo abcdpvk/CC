@@ -1,0 +1,12 @@
+S->ABC
+S->ghi
+A->a|b|c
+B->b
+
+E->TE'
+E'->+TE'/@
+T->FT'
+T'->*FT'/@
+F->(E)/ID
+----->(a+b)*c
+---x-->a/c+d
