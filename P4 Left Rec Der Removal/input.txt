@@ -1,0 +1,7 @@
+//enter these inputs
+E
+3
+E+T
+T 
+#
+
