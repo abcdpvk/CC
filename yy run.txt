@@ -1,0 +1,15 @@
+E:\COLLEGEWork\NU\SEM7\CC\win_flex_bison-latest>"E:\COLLEGEWork\NU\SEM7\CC\win_flex_bison-latest\win_bison.exe" P6.y
+
+E:\COLLEGEWork\NU\SEM7\CC\win_flex_bison-latest>"E:\COLLEGEWork\NU\SEM7\CC\win_flex_bison-latest\win_bison.exe" P6.y -d
+
+E:\COLLEGEWork\NU\SEM7\CC\win_flex_bison-latest>"E:\COLLEGEWork\NU\SEM7\CC\win_flex_bison-latest\win_flex.exe" P6.l
+
+E:\COLLEGEWork\NU\SEM7\CC\win_flex_bison-latest>gcc lex.yy.c P6.tab.c
+P6.y: In function 'ThreeAddressCode':
+P6.y:69:6: warning: implicit declaration of function 'isalpha' [-Wimplicit-function-declaration]
+   if(isalpha(code[cnt].opd1))
+      ^~~~~~~
+
+E:\COLLEGEWork\NU\SEM7\CC\win_flex_bison-latest>a.exe
+
+Enter the Expression : a+b/c;
